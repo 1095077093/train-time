@@ -18,6 +18,7 @@ public class TrainController {
         jsonObject= jsonObject.getJSONObject("diffgr:diffgram");
         JSONArray jsonArray = jsonObject.getJSONArray("getStationAndTime");
         System.out.println(jsonArray);
+        System.out.println("wanghaha");
         return jsonArray.toString();
 
 
